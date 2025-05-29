@@ -14,6 +14,9 @@ public class LoginSystem {
         userList.add(new Admin("Brillian", "166", "admin", "admin"));
         userList.add(new Mahasiswa("Brillian", "166"));
         userList.add(new Mahasiswa("Bintang", "159"));
+        userList.add(new Mahasiswa("ivan", "123"));
+
+        reportedItems.add(new Item("hp", "hitam", "kampus", "gtw"));
 
         User user = null;
         while (user == null) {
